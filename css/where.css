@@ -1,0 +1,10 @@
+.karta {
+    display: flex;
+    justify-content: center;
+}
+.adress {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 85px;
+}

@@ -1,0 +1,14 @@
+.active::after {
+    background-color: rgb(7, 135, 255);
+    display: block;
+    content: "";
+    height: 2px; 
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.active:hover:after, .active:hover:focus {
+    text-decoration: none;
+    width: 100%;
+}
