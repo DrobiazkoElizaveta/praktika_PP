@@ -23,5 +23,12 @@
   .cards {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
   }
 }    
+@media (max-width: 992px) {
+  .carousel {
+    max-width: 900px;
+  }
+}
+

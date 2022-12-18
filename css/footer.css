@@ -42,3 +42,7 @@
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
+  footer {
+    max-height: 50px;
+  }
+  
