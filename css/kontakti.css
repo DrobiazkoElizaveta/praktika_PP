@@ -45,3 +45,11 @@
   .pismo {
     margin: 100px;
   }
+  .pismo a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .pismo a:hover {
+    text-decoration: none;
+    color: aliceblue;
+  }
