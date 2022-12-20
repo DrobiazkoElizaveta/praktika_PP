@@ -1,7 +1,7 @@
 .card {
-  margin-top: 200px;
+  margin-top: 140px;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 @media (max-width: 620px) {
     .card {

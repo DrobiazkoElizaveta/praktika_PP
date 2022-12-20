@@ -3,3 +3,10 @@
       font-size: 3.5rem;
     }
   }
+  @media (max-width: 500px) {
+    footer {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
