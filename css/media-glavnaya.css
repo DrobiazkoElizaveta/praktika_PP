@@ -19,17 +19,29 @@
           margin-top: 7rem;
         }
       }
-@media (max-width: 768px) {
-  .cards {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}    
-@media (max-width: 992px) {
-  .carousel {
-    max-width: 900px;
-  }
-}
-
+      @media (max-width: 968px) {
+        .cards {
+          display: flex;
+          flex-wrap: wrap;
+          margin-left: auto;
+          align-items: center;
+        }
+        .card {
+          margin-bottom: 10px;
+        }
+      }
+      @media (max-width: 992px) {
+        .carousel-item {
+          width: 50vw;
+          height: 50vh;
+        }
+      }
+      @media (max-width: 600px) {
+        .carousel-item {
+          width: 25vw;
+        }
+        .carousel-caption {
+          max-width: 75%;
+        }
+      }
+      
