@@ -10,6 +10,21 @@ body {
   padding-bottom: 40px;
   background-color: #f5f5f5;
 }
+
+.form-signup {
+  max-width: 600px;
+  padding: 15px;
+}
+
+.pochta{
+  display: flex;
+  justify-content: center;
+}
+
+.form-signup .form-floating:focus-within {
+  z-index: 2;
+}
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -53,7 +68,4 @@ body {
     text-align: center;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
-  }
-  .container {
-    max-width: 576px;
   }
