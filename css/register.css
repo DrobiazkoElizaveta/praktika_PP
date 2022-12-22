@@ -16,11 +16,6 @@ body {
   padding: 15px;
 }
 
-.pochta{
-  display: flex;
-  justify-content: center;
-}
-
 .form-signup .form-floating:focus-within {
   z-index: 2;
 }
