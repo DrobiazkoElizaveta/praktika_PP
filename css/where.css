@@ -8,3 +8,6 @@
       width: 80vw;
     }
   }
+  main, header, footer {
+    font-family: 'Nunito', sans-serif;
+  }

@@ -31,3 +31,6 @@
 .table tbody tr:nth-child(even){
 	background: #f8f8f8!important;
 }
+main, header, footer {
+	font-family: 'Nunito', sans-serif;
+  }

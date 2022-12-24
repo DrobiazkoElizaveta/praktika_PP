@@ -75,3 +75,6 @@ body {
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
+  main {
+    font-family: 'Nunito', sans-serif;
+  }
