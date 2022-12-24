@@ -45,4 +45,6 @@
   footer {
     max-height: 50px;
   }
-  
+  .text-footer {
+    margin-left: 42px;
+  }
